@@ -14,10 +14,29 @@ body,
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
+  flex-direction: column;
 
   svg {
     height: 100%;
   }
+}
+
+.loginForm {
+  width: 400px;
+  margin: auto;
+}
+
+.loginForm label{
+  margin: auto;
+}
+
+.loginForm input {
+  margin: auto;
+}
+
+.loginForm button {
+  margin : auto;
+  width: 120px;
 }
 
 .spacer {
